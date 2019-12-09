@@ -2,8 +2,21 @@
     "devDependencies": {
         "@babel/preset-react": "^7.7.4",
         "@symfony/webpack-encore": "^0.28.0",
+        "@types/enzyme": "^3.10.3",
+        "@types/enzyme-adapter-react-16": "^1.0.5",
+        "@types/jest": "^24.0.23",
+        "@types/react": "^16.9.13",
+        "@types/react-dom": "^16.9.4",
         "core-js": "^3.0.0",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.15.1",
+        "jest": "^24.9.0",
         "regenerator-runtime": "^0.13.2",
+        "ts-jest": "^24.2.0",
+        "ts-loader": "^5.3.0",
+        "tslint": "^5.20.1",
+        "tslint-react": "^4.1.0",
+        "typescript": "^3.7.2",
         "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",
@@ -12,11 +25,13 @@
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
-        "build": "encore production --progress"
+        "build": "encore production --progress",
+        "test": "jest"
     },
     "dependencies": {
         "prop-types": "^15.7.2",
         "react": "^16.12.0",
-        "react-dom": "^16.12.0"
+        "react-dom": "^16.12.0",
+        "serialize-javascript": "^2.1.1"
     }
 }
